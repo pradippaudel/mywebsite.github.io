@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+a
+{
+  text-decoration: none;
+  color: #000;
+}
+body
+{
+font-family: verdana;
+}
+.top
+{
+	border-bottom: 1px solid #ccc;
+	height: 41px;
+}
+
+.container
+{
+	width: 1140px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.container ul
+{
+	list-style: none;
+}
+.left ul li
+{
+	float: left;
+    padding: 11px 10px;
+    border-right: 1px solid #ccc;
+}
+.right ul li
+{
+	float: left;
+    padding: 11px 10px;
+    border-left: 1px solid #ccc;
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.logo
+{
+	padding-top: 10px;
+}
+nav
+{
+float: right;
+}
+nav ul
+{
+	padding-top: 30px;
+}
+
+nav ul li
+{
+	float: left;
+	padding:20px;
+	font-size: 18px;
+
+}
+nav ul li a
+{
+	color: green;
+	text-transform: uppercase;
+	font-weight:400px;
+}
+header
+{
+	height: auto;
+	overflow: hidden;
+}
+.slider
+{
+ background-image: url("../img/photo.jpg");
+min-height: 350px;
+text-align: center;
+color: #ffffff;
+padding-top: 200px;
+text-shadow: 2px 2px 2px #ccc;
+}
+.slider h1
+{
+	font-size: 42px;
+
+}
+.slider p
+{
+	font-size: 22px;
+}
+.animate__animated.animate__zoomInDown 
+{
+  --animate-duration: 2s;
+}
+.readmore
+{
+	color: #ffffff;
+	padding: 10px 20px; /*maathi ra tala 10px and right ra left 20 px*/
+	margin-top: 30px;
+	border: 2px solid #ffffff;
+	display: inline-block;  /*yesle jati chianchha teti display garchha*/ 
+}
+.welcome
+{
+	text-align: center;
+	padding-top: 23px;
+	padding-bottom: 50px;
+	height: auto;
+	overflow: hidden;
+}
+.welcome  h2
+{
+	font-size: 30px;
+	font-weight: normal; /*yesle bold hatayera normal size ma lerauchha */
+}
+.welcome p
+{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20px;
+	font-size: 13px;
+	line-height: 18px;
+	padding-right: 2px;
+}
+.one
+{
+	width: 360px;
+	float: left;
+}
+
+.one h1
+{
+	font-size: 140px;
+	color: #006f45;
+	padding-top: 53px;
+}
+.one h4
+{
+	font-family: Myriad pro;
+	font-size: 22px;
+	font-weight: normal;
+}
+.readmore1
+{
+	color: #ffffff;
+	background:#006f45;
+	padding: 5px 10px ; /*maathi ra tala 10px and right ra left 20 px*/
+	margin-top: 20px;
+	display: inline-block;  /*yesle jati chianchha teti display garchha*/
+}
+
+.services
+{
+ background: #f5f5f5;
+ text-align: center;
+ padding: 80px 0px;
+ height: auto;
+ overflow: hidden;
+}
+.services h1
+{
+	padding-bottom: 30px;
+}
+.project
+
+{
+	width: 285px;
+	height: 213px;
+	background: #006f45;
+	position: relative;
+	float: left;
+}
+.project::after
+{
+	position: absolute;
+	content: "";
+	left: 285px;
+	top: 40%;
+	width: 1px;
+	border-left: 10px solid #006f45;;
+	border-top:10px solid transparent;
+	border-bottom: 10px solid  transparent;
+	
+}
+.project1
+{
+	float: left;
+	width: 285px;
+	height: 213px;
+}
+.project1 img
+{
+   height:100%;
+   width: 100%;
+}
+
+.project_down
+
+{
+	width: 285px;
+	height: 213px;
+	background: #006f45;
+	position: relative;
+	float: left;
+}
+.project_down::after
+{
+	position: absolute;
+	content: "";
+	right:285px;
+	top: 40%;
+	width: 1px;
+	border-right:10px solid #006f45;;
+	border-top:10px solid transparent;
+	border-bottom: 10px solid  transparent;
+	
+}
+
+.touch
+{
+	background: #000;
+	height: 130px;
+	color: #ffffff;
+	padding-top: 30px;
+	box-sizing: border-box; /*yesle padding ko size badha didaina*/
+}
+.touch h1
+{
+	
+	font-weight: normal;
+	padding-bottom: 4px;
+}
+
+.right input[type="search"]
+{
+	width: 345px;
+	height: 50px;
+	border-radius: 25px 0px 0px 25px; /*top left ,top right,buttom right,buttom left*/
+	border: 0px;
+	padding-left: 20px;  /*orientation milauna ko lagi ho*/ 
+}
+.right input[type="submit"]
+{
+	width: 113px;
+	height: 50px;
+	border-radius: 0px 25px 25px 0px;
+	border: 0px;
+	margin-left: -10px;
+	background: #006f45;
+	color: #ffffff;
+
+}
+.contact
+{
+	text-align: center;
+	overflow: hidden;
+	height: auto;
+    padding-bottom: 80px;
+	
+}
+.contact h1
+{
+	font-size: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.leftinput
+{
+	width: 266px;
+	height: 39px;
+	background: #eeeeee;
+	border: 0px;
+	padding-left: 20px;
+}
+.textarea
+{
+width: 574px;
+height: 170px;
+background: #eeeeee;
+border: none;
+margin:10px;
+}
+
+.btn
+{
+	background: #efad21;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 12px 12px 12px 12px;
+	border: none;
+}
+footer
+{
+	min-height: 31px;
+	background: #000000;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
